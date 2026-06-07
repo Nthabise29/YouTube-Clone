@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
+
+body{
+     font-family: "Roboto", sans-serif;
+}
+
 
 a {
     text-decoration: none;
@@ -26,12 +34,14 @@ a {
 .navbar .logo{
     display: flex;
     align-items: center;
+    margin-left: 8px;
 }
 
 .logo > img {
     margin-left: 10px;
     width: 105px;
     padding-left:16px;
+    padding-bottom: 18px;
 }
 
 
@@ -107,4 +117,106 @@ a {
     margin-right: 16px;
     width: 40px;
    
+}
+
+/*MAIN STYLING*/
+
+.main{
+    display: flex;
+    height: calc(100vh - 56px);
+}
+
+/*SIDEBAR STYLING*/
+
+
+.sidebar{
+    width: 240px;
+    height: 100%;
+    background-color:#ffffff;
+    gap: 100px;
+}
+
+.category{
+   width: 100%;
+   display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 24px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.category-heading{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 40px;
+    padding: 0 24px;
+    font-weight: 500;
+}
+
+.category-section p {
+    width: 100%;
+    height: 40px;
+    padding: 0 24px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+
+.category:hover {
+    background: #f2f2f2;
+    border-radius: 8px;
+}
+.category-heading:hover{
+    background: #f2f2f2;
+    border-radius: 8px;
+}
+.category i {
+    margin-right: 24px;
+}
+.category img{
+    margin-right: 24px;
+}
+
+.category-section{
+    border-bottom: 0.5px solid #e5e5e5;
+    margin-top: 10px;
+}
+
+.category-section .category:last-child{
+    margin-bottom: 10px;
+}
+
+.footer-category{
+    padding: 16px 24px 0;
+    color: #606060;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+
+.footer-category span{
+    cursor: pointer;
+}
+
+.copyright{
+    font-size: 12px;
+    font-weight: 400;
+    color: #909090;
+    margin-bottom: 18px;
+    padding-top: 10px;
+}
+
+
+
+
+
+/*VIDEOGRID STYLING*/
+
+.videogrid{
+    width: calc(100vw - 240px);
+    height: 100%;
+    background-color: #ffffff;
 }
