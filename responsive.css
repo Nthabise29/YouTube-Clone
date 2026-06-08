@@ -1,0 +1,50 @@
+@media (max-width:1200px) and (min-width:768px){
+
+}
+
+
+@media(max-width:512px){
+
+    .sidebar {
+        display: none;
+    }
+
+    .videos {
+        width: 100vw;
+    }
+
+    .video {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .video .thumbnail img {
+        width: 100%;
+    }
+
+    .video .details {
+        width: 100%;
+    }
+
+    .search {
+        width: 160px;
+    }
+
+    .navbar {
+        padding: 0 8px;
+    }
+
+    .logo > img {
+        width: 80px;
+    }
+
+    .nav-items button {
+        width: auto;
+        padding: 0 8px;
+    }
+
+    .searchbar a {
+        display: none;
+    }
+
+}

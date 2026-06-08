@@ -13,6 +13,14 @@ body{
 }
 
 
+
+
+
+
+
+
+
+
 a {
     text-decoration: none;
     color: inherit;
@@ -284,4 +292,63 @@ a {
     font-weight: 400;
     cursor: pointer;
     line-height: 20px;
+}
+
+
+
+/*DARK MODE STYLING*/
+
+body.dark-mode {
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+
+body.dark-mode .navbar {
+    background-color: #0f0f0f;
+}
+
+body.dark-mode .search {
+    border-color: #444;
+}
+
+body.dark-mode .search input {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode .search button {
+    background-color: #222222;
+    color: #ffffff;
+    border-color: #444;
+}
+
+body.dark-mode .searchbar a {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+body.dark-mode .nav-items button {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+body.dark-mode .sidebar {
+    background-color: #0f0f0f;
+}
+
+body.dark-mode .category:hover,
+body.dark-mode .category-heading:hover {
+    background-color: #272727;
+}
+
+body.dark-mode .videos {
+    background-color: #0f0f0f;
+}
+
+body.dark-mode .video-info p {
+    color: #ffffff;
+}
+
+body.dark-mode .footer-category {
+    color: #aaaaaa;
 }
